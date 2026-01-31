@@ -1471,8 +1471,8 @@
                 artwork: [
                                  {
                                      //src: artworkUrl, // NOT WORKING
-                                     src: 'https://github.com/aliashori78/MP3-Player-Pro/blob/9ecdc18985504a6a3889234b61739a79ef14fe38/Assets/Album1.jpg' || artworkUrl,
-                                     //    https://github.com/aliashori78/MP3-Player-Pro/blob/9ecdc18985504a6a3889234b61739a79ef14fe38/Assets/Album2.jpg
+                                     src: 'https://raw.githubusercontent.com/aliashori78/MP3-Player-Pro/9ecdc18985504a6a3889234b61739a79ef14fe38/Assets/Album1.jpg' || artworkUrl,
+                                     //    https://raw.githubusercontent.com/aliashori78/MP3-Player-Pro/9ecdc18985504a6a3889234b61739a79ef14fe38/Assets/Album2.jpg
                                      sizes: 'any',
                                      type: artworkFormat
                                  }
@@ -3548,4 +3548,5 @@
             $container.css('cursor', '');
         });
     });
+
 })();
