@@ -10,6 +10,10 @@
 
 **MP3 Player Pro** is a lightweight, high-performance browser-based audio controller. Designed as a UserScript, it injects a professional-grade music player into any website, allowing you to manage your local music library directly within your browser tabs. It transforms any tab into a music workstation with advanced features like AI-powered lyric translation and drag-and-drop playlist management.
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/aliashori78/MP3-Player-Pro/refs/heads/main/Assets/Lyrics-Screenshot-1.jpg" alt="MP3 Player Pro - Lyrics-Screenshot-1">
+</div>
+
 ---
 
 ## ✨ Key Features
@@ -33,6 +37,15 @@ Experience your music like never before and never miss a word. MP3 Player Pro is
 - **Translation Management:** Select your target language for AI-driven translations.
 - **Support for .LRC:** Optimized for standard lyric formats.
 
+<div align="center">
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/aliashori78/MP3-Player-Pro/refs/heads/main/Assets/Waveform-Screenshot.jpg" alt="MP3 Player Pro - Waveform-Screenshot" width="800" height="800" style="max-width: 100%; height: auto; max-height: 800px;"></td>
+    <td><img src="https://raw.githubusercontent.com/aliashori78/MP3-Player-Pro/refs/heads/main/Assets/Lyrics-Screenshot-2.jpg" alt="MP3 Player Pro - Lyrics-Screenshot-2" height="400" style="max-width: 100%; height: auto; max-height: 400px;"></td>
+  </tr>
+</table>
+</div>
+
 ### 🎚️ Advanced Visualizer (Equalizer) (Web Audio API)
 Take control of your sound. The player utilizes the browser's native AudioContext to provide:
 - **Multiple Styles:** Switch between **Bars**, **Waveform**, or **Radial** views.
@@ -40,6 +53,8 @@ Take control of your sound. The player utilizes the browser's native AudioContex
 - **Frequency Shaping:** Balance your bass, mids, and treble for the perfect acoustic experience.
 - **Custom Aesthetics:** Define your own colors to match your browser theme.
 - **Optimized Output:** High-fidelity playback with minimal latency.
+
+
 
 ### 🎶 Smart Playlist Management
 - **Bulk Import:** Drag and drop entire music folders directly into the tab.
@@ -49,6 +64,15 @@ Take control of your sound. The player utilizes the browser's native AudioContex
 - Seamlessly transition between tracks.
 - Visual playlist rendering for easy navigation.
 - Lightweight memory footprint, ensuring your browser remains fast.
+
+<div align="center">
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/aliashori78/MP3-Player-Pro/refs/heads/main/Assets/Playlist-Screenshot-1.jpg" alt="MP3 Player Pro - Playlist-Screenshot-1" width="800" height="800" style="max-width: 100%; height: auto; max-height: 800px;"></td>
+    <td><img src="https://raw.githubusercontent.com/aliashori78/MP3-Player-Pro/refs/heads/main/Assets/Playlist-Screenshot-2.jpg" alt="MP3 Player Pro - Playlist-Screenshot-2" height="400" style="max-width: 100%; height: auto; max-height: 400px;"></td>
+  </tr>
+</table>
+</div>
 
 ---
 
@@ -81,6 +105,14 @@ The script is built using modern JavaScript patterns to ensure compatibility and
 - **Custom Fonts:** Select your preferred **App Font** directly from the UI settings.
 - **Sensitivity** Slider/Input Control: how the visualizer reacts to bass and treble.
 
+<div align="center">
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/aliashori78/MP3-Player-Pro/refs/heads/main/Assets/Settings-Screenshot-1.jpg" alt="MP3 Player Pro - Settings-Screenshot-1" width="800" height="800" style="max-width: 100%; height: auto; max-height: 800px;"></td>
+    <td><img src="https://raw.githubusercontent.com/aliashori78/MP3-Player-Pro/refs/heads/main/Assets/Settings-Screenshot-2.jpg" alt="MP3 Player Pro - Settings-Screenshot-2" width="800" height="800" style="max-width: 100%; height: auto; max-height: 800px;"></td>
+  </tr>
+</table>
+</div>
 
 ---
 
