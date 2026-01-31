@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://github.com/aliashori78/MP3-Player-Pro/blob/f8894734ddd3303005e2dccb724d204596a3a081/Assets/MP3%20Player%20Pro.png" alt="MP3 Player Pro - Icon" width="128" height="128" style="max-width: 100%; height: auto; max-height: 128px;">
+<img src="https://raw.githubusercontent.com/aliashori78/MP3-Player-Pro/f8894734ddd3303005e2dccb724d204596a3a081/Assets/MP3%20Player%20Pro.png" alt="MP3 Player Pro - Icon" width="128" height="128" style="max-width: 100%; height: auto; max-height: 128px;">
 
 # 🎵 MP3 Player Pro
 </div>
