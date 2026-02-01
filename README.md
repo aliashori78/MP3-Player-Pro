@@ -6,7 +6,7 @@
 
 [![License: AGPL v3](https://img.shields.io/badge/License-GNU%20AGPLv3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://i-ali.ir/)
-[![Author](https://img.shields.io/badge/author-AliAshori-orange.svg)](https://github.com/AliAshori)
+[![Author](https://img.shields.io/badge/author-AliAshori78-orange.svg)](https://github.com/AliAshori78)
 
 **MP3 Player Pro** is a lightweight, high-performance browser-based audio controller. Designed as a UserScript, it injects a professional-grade music player into any website, allowing you to manage your local music library directly within your browser tabs. It transforms any tab into a music workstation with advanced features like AI-powered lyric translation and drag-and-drop playlist management.
 
