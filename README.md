@@ -26,6 +26,8 @@ Forget complex file explorers. Simply grab your audio files from your computer a
 - **Floating UI:** A sleek, modern player that stays on top. Position it anywhere with smooth dragging.
 - **Playlist Management:** Automatically build and manage a temporary playlist of dropped files.
 
+![MP3 Player Pro - Demo](https://raw.githubusercontent.com/aliashori78/MP3-Player-Pro/refs/heads/main/Assets/Demo.gif)
+
 ### 🤖 Synchronized Lyrics & AI Translation
 Experience your music like never before and never miss a word. MP3 Player Pro isn't just a player; it's a translator!
 - **Real-time Sync:** Lyrics follow the music in real-time. Automatically detects and scrolls lyrics based on audio timestamps.
@@ -53,8 +55,6 @@ Take control of your sound. The player utilizes the browser's native AudioContex
 - **Frequency Shaping:** Balance your bass, mids, and treble for the perfect acoustic experience.
 - **Custom Aesthetics:** Define your own colors to match your browser theme.
 - **Optimized Output:** High-fidelity playback with minimal latency.
-
-
 
 ### 🎶 Smart Playlist Management
 - **Bulk Import:** Drag and drop entire music folders directly into the tab.
