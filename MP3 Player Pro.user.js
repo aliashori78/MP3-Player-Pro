@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MP3 Player Pro
 // @namespace    https://i-ali.ir/
-// @version      1.0.0
+// @version      1.0.1
 // @license      GNU AGPLv3
 // @description  A lightweight browser-based audio controller that lets you drag-and-drop music files into any tab for instant playback, featuring synchronized lyrics with real-time multi-language translations.
 // @author       AliAshori
@@ -1464,20 +1464,33 @@
                 artworkFormat = tags.image.format;
             }
 
-            navigator.mediaSession.metadata = new MediaMetadata({
-                title: tags.title || fileNameWithoutExt,
-                artist: tags.artist,
-                album: tags.album,
-                artwork: [
-                                 {
-                                     //src: artworkUrl, // NOT WORKING
-                                     src: 'https://raw.githubusercontent.com/aliashori78/MP3-Player-Pro/9ecdc18985504a6a3889234b61739a79ef14fe38/Assets/Album1.jpg' || artworkUrl,
-                                     //    https://raw.githubusercontent.com/aliashori78/MP3-Player-Pro/9ecdc18985504a6a3889234b61739a79ef14fe38/Assets/Album2.jpg
-                                     sizes: 'any',
-                                     type: artworkFormat
-                                 }
-                             ]
-            });
+            if ('mediaSession' in navigator) {
+                try {
+                    // Prefer the in-memory blob URL when available, otherwise fall back to a bundled artwork URL
+                    const fallbackArtwork = 'https://raw.githubusercontent.com/aliashori78/MP3-Player-Pro/9ecdc18985504a6a3889234b61739a79ef14fe38/Assets/Album1.jpg';
+                    const artworkSrc = artworkUrl || fallbackArtwork;
+                    const artworkType = artworkFormat || 'image/jpeg';
+
+                    // Provide multiple size hints to improve platform compatibility (Windows notification/taskbar)
+                    const artworkEntries = [
+                        { src: artworkSrc, sizes: '96x96', type: artworkType },
+                        { src: artworkSrc, sizes: '128x128', type: artworkType },
+                        { src: artworkSrc, sizes: '192x192', type: artworkType },
+                        { src: artworkSrc, sizes: '256x256', type: artworkType },
+                        { src: artworkSrc, sizes: '512x512', type: artworkType },
+                        { src: artworkSrc, sizes: 'any', type: artworkType }
+                    ];
+
+                    navigator.mediaSession.metadata = new MediaMetadata({
+                        title: tags.title || fileNameWithoutExt,
+                        artist: tags.artist,
+                        album: tags.album,
+                        artwork: artworkEntries
+                    });
+                } catch (err) {
+                    console.warn('MediaSession metadata set failed:', err);
+                }
+            }
             //console.log('MY DEBUG: ' + tags.image.data);
             //console.log('MediaSession.metadata =', navigator.mediaSession.metadata);
 
